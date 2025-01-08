@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.testimonial-image, .testimonial-image img {
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+}
+.testimonial-content{
+    overflow: hidden;
+}
+.section-title{
+    text-align: center;
+}
+.container{
+    margin-top: 20px;
+}
+.row{
+    padding: 20px;
+}
+.col-md-4{
+    padding: 20px;
+}
