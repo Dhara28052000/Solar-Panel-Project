@@ -1,0 +1,40 @@
+.Service-tile{
+    
+    background: linear-gradient(to right, #070761 0%, #1063bc 50%, #070761 100%); 
+    padding: 50px;
+}
+
+.service-desk{
+    text-align: center !important;
+    margin: 0 0 10px;
+   
+}
+#services .col-md-4{
+   width: 33.33%;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+
+.service-row{
+    display: flex;
+    width: 100%;
+    color: white;
+    text-align: center;
+
+}
+
+.Serviceimage{
+    border-radius: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    height: auto;
+    display: block;
+    width: 80%;
+
+}
+#services h3 {
+    color: white;
+    text-align: centers;
+}

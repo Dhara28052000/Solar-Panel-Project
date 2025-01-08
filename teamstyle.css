@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.team-img{
+    height: 200px;
+    width: 90%;
+}
+
+#team{
+    padding: 100px;
+    
+}

@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.award{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    margin-left: 200px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+  }
+  .grid-item {
+    padding: 20px;
+    text-align: center;
+  }
+  

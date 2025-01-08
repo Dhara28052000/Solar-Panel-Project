@@ -1,0 +1,91 @@
+ body{
+        height: 100vh;
+        background: url("images/image8.png") no-repeat center center;
+        background-size: cover;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 20px;
+    }
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    color: white;
+
+}
+
+.nav a{
+
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 0 10px;
+    color: white;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.heading {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    
+}
+.i-container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header .intro-text {
+    padding-top: 350px;
+    padding-bottom: 200px;
+    text-align: center;
+}
+.i-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-right: 50px;
+    
+}
+.intro h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 55px;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.intro p {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.btn-custom {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5ca9fb;
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    padding: 14px 34px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.5s linear;
+    border: 0;
+}

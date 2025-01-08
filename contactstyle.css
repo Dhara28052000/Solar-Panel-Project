@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#contactus{
+    width: 100%;
+    background: linear-gradient(to right, #070761 0%, #1063bc 50%, #070761 100%); 
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading h2{
+    margin-bottom: 10px;
+
+}
+.heading p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.form-group{
+    margin-bottom: 15px;
+    flex: 1;
+    color: white;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(215, 195, 247);
+    border-radius: 5px;
+    font-size: 14px;
+   
+}
+.form-group textarea {
+    height: 100px;
+    resize: none;
+    
+   
+}
+button{
+    padding: 10px 15px;
+    background-color: #005bb5;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 2px solid white;
+
+}
+button:hover {
+
+    background: aliceblue;
+    color: blue;
+}
+
+.contact-info{
+    width: auto;
+    color: white;
+    padding: 50px;
+    margin-left: 200px;
+}
+form{
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px;
+    background: rgb(19, 93, 158);
+    width: auto; 
+}
+footer{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #070761 0%, #1063bc 50%, #070761 100%);;
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: 0.3s;
+}
+.icon:hover {
+    background-color: white;
+    color: #00277d;
+}
+.facebook{
+    background-color: transparent;
+}
+.instagram{
+    background-color: transparent;
+}
