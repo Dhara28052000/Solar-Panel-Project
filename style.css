@@ -89,3 +89,50 @@ header .intro-text {
     transition: all 0.5s linear;
     border: 0;
 }
+
+@media only screen and (max-width: 480px) {
+    .navlink{
+        display: none !important;
+        
+    }
+
+    .navlink .active{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background-color: #5ca9fb;
+
+    }
+    .hamberger{
+        display: block;
+    }
+    header .intro-text {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        align-items: center;
+        
+    }
+    
+    .intro-text h1{
+      font-size: 1.5rem;
+      position: relative;
+      top: 20px;
+      
+    }
+    .intro-text p{
+       
+      width: 50%;
+      font-size: 1rem;
+
+    }
+
+    .i-container{
+        flex-direction: column;
+        /* align-items: center; */
+      
+    }
+  }
