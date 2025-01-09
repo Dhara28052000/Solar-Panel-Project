@@ -19,4 +19,26 @@
     padding: 20px;
     text-align: center;
   }
+
+@media only screen and (max-width: 480px) {
+   
+      #award h1 {
+        font-size: 20px;
+      }
+
+      .grid-item{
+        margin-top: 10px;
+        flex-basis: calc(50% -10%);
+      }
+      .grid-container{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        right: 90px;
+      }
+      
+    }
+
   
