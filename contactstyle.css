@@ -106,3 +106,41 @@ footer{
 .instagram{
     background-color: transparent;
 }
+
+
+@media only screen and (max-width: 480px) {
+
+    
+    .contact-info{
+       width: 320px;
+        text-align: left;
+        position: relative;
+        right: 190px;
+        
+    }
+    #contactus{
+        width: 320%;
+        flex-direction: column;
+       
+      
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #form{
+        width: 100%;
+    }
+    .form-group{
+        width: 100%;
+    }
+    label, input, textarea{
+        font-size: 14px;
+    }
+    button{
+        padding: 10PX 20px;
+        font-size: 14px;
+    }
+    footer{
+        width: 320%;
+        background-color:linear-gradient(to right, #070761 0%, #1063bc 50%, #070761 100%);
+        padding: 10px;
+    }
+}
