@@ -98,7 +98,12 @@ header .intro-text {
 
 
 @media only screen and (max-width: 576px) {
-  
+
+ body{
+  background-size:contains;
+  background-repeat: no-repeat;
+  min-height: 100vh
+ }
  .nav-link{
         display: none !important;
         
