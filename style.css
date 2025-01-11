@@ -109,7 +109,7 @@ header .intro-text {
         
     }
     .nav-toggle{
-        display: block;
+        display: block !important;
        
     }
 
