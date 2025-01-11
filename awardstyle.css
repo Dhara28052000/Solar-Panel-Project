@@ -20,7 +20,7 @@
     text-align: center;
   }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
    
       #award h1 {
         font-size: 20px;
