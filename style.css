@@ -17,9 +17,6 @@
 .nav-toggle{
     display: none;
 }
-.nav-link{
- display: none;
-
 .nav a{
     text-decoration: none;
     font-size: 1.2em;
@@ -92,7 +89,7 @@ header .intro-text {
 }
 
 @media only screen and (max-width: 480px) {
-    .navlink{
+    .nav-link{
         display: none !important;
         
     }
