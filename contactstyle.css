@@ -119,18 +119,13 @@ footer{
         
     }
     #contactus{
-        width: 320%;
         flex-direction: column;
-       
-      
         font-family: Arial, Helvetica, sans-serif;
     }
     #form{
         width: 100%;
     }
-    .form-group{
-        width: 100%;
-    }
+    
     label, input, textarea{
         font-size: 14px;
     }
