@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen  (max-width: 576 and (max-width: 768px) {
     .website{
         overflow: hidden;
         width: 100%;
