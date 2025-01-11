@@ -134,7 +134,6 @@ footer{
         font-size: 14px;
     }
     footer{
-        width: 320%;
         background-color:linear-gradient(to right, #070761 0%, #1063bc 50%, #070761 100%);
         padding: 10px;
     }
