@@ -10,7 +10,7 @@
 }
 
 
-@media(max-width: 475px) {
+@media(max-width: 480px) {
     .main_container{
         max-width: 475;
         overflow-x: hidden;
@@ -24,6 +24,13 @@
         position: relative;
         margin-left: 20px;
       
+    }
+     .sidebar{
+        width: 100%;
+
+    }
+    .menu-button{
+        display: block;
     }
 
 }
@@ -43,12 +50,7 @@
     img{
         width: 70%;
     }
-     .hideOnMobile{
-        display: none;
-    }
-    .menu-button{
-        display: block;
-    }
+
 }
 }
 
