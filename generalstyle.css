@@ -1,22 +1,89 @@
-@media only screen  (max-width: 576 and (max-width: 768px) {
-    .website{
-        overflow: hidden;
-        width: 100%;
+.main_container{
+    width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.menu-button{
+    display: none;
+}
+
+
+@media screen and (min-width: 475px) {
+    .main_container{
+        max-width: 475;
+        overflow-x: hidden;
+    }
+    img{
+        max-width: 100%;
+       
     }
 
-    #website body {
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select : none;
-        -moz-user-select: none;
-        user-select: none;
-        -ms-user-select: none;
-        touch-action: manipulation;
-
-
+    .intro-text h1{
+        position: relative;
+        margin-left: 20px;
+      
     }
-    html, body {
-        width: 100%;
+
+}
+@media only screen and (min-width: 640px) {
+    .main_container{
+        max-width: 640;
+        overflow-x: hidden;
+    }
+
+}
+@media only screen and (min-width: 768px) {
+    .main_container{
+        max-width: 768;
+        overflow-x: hidden; 
+        
+    }
+    img{
+        width: 70%;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .main_container{
+        max-width: 1024;
         overflow-x: hidden;
     }
 }
+@media only screen and (min-width: 1280px) {
+    .main_container{
+        max-width: 1280;
+        overflow-x: hidden;
+    }
+}
+@media only screen and (min-width: 1536px) {
+    .main_container{
+        max-width: 1536;
+        overflow-x: hidden;
+    }
+}
+
+
+@media(max-width: 800px) {
+    .hideOnMobile{
+        display: none;
+    }
+    .menu-button{
+        display: block;
+    }
+}
+@media(max-width: 400px) {
+    .sidebar{
+        width: 100%;
+
+    }
+    .menu-button{
+        display: block;
+    }
+}
+
+
+
+
+
+m
