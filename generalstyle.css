@@ -25,6 +25,16 @@
         margin-left: 20px;
       
     }
+     .hideOnMobile{
+        display: none;
+    }
+    .sidebar{
+        width: 100%;
+
+    }
+    .menu-button{
+        display: block;
+    }
 
 }
 @media(min-width: 640px) {
