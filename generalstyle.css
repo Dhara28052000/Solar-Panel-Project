@@ -31,7 +31,7 @@
         display: block;
     }
     .hideOnMobile{
-        display: none;
+        display: none !important;
     }
 
 }
